@@ -28,7 +28,7 @@ export default function Drinks() {
               className="object-cover"
               priority
             />
-            <div className="absolute bottom-0 right-0 bg-[#4B2C15] text-white px-4 py-2 rounded-xl text-sm font-bold">
+            <div className="absolute bottom-0 right-0 bg-[#4B2C15] text-white px-4 py-2 rounded-tl-xl text-sm font-bold">
               {cat.name}
             </div>
           </div>
