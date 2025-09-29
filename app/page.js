@@ -63,13 +63,12 @@ export default function Home() {
               initial={{ scale: 0.8, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}
               transition={{ delay: 0.5, duration: 0.5 }}
-              className="hover:cursor-pointer w-[244px] h-[75px] rounded-[20px] text-lg font-bold text-white relative overflow-hidden mt-[134px]"
+              className="hover:cursor-pointer w-[244px] h-[75px] rounded-[20px] text-lg font-bold text-white relative overflow-hidden mt-[79px]"
             >
               <span className="relative z-10 text-[30px] font-bold">
                 منيو المشروبات
               </span>
 
-              {/* الخلفية الداخلية */}
               <span
                 className="absolute inset-[1px] rounded-[19px]"
                 style={{ background: "#493A2599" }}
@@ -81,7 +80,7 @@ export default function Home() {
               initial={{ scale: 0.8, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}
               transition={{ delay: 0.5, duration: 0.5 }}
-              className="hover:cursor-pointer w-[244px] h-[75px] rounded-[20px] text-lg font-bold text-white relative overflow-hidden mt-[34px]"
+              className="hover:cursor-pointer w-[244px] h-[75px] rounded-[20px] text-lg font-bold text-white relative overflow-hidden mt-[40px]"
             >
               <span className="relative z-10 text-[30px] font-bold">
                 منيو البن
@@ -94,8 +93,6 @@ export default function Home() {
               ></span>
             </motion.button>
           </Link>
-          <div className="text-2xl">مازلنا في وضع التطوير</div>
-          <div className="text-2xl">لم يتم إضافة جميع المنتجات بعد</div>
         </motion.div>
       )}
     </main>

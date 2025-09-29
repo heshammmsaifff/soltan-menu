@@ -8,12 +8,12 @@ export default function Drinks() {
     { name: "القهوة", slug: "coffee", image: null },
     { name: "ميلك شيك", slug: "milkshake", image: null },
     { name: "عصائر فريش", slug: "fresh-juices", image: null },
-    // { name: "عصائر موسمية", slug: "seasonal-juices", image: null },
-    // { name: "سموزي", slug: "smoothie", image: null },
-    // { name: "منتجات", slug: "products", image: null },
-    // { name: "صودا", slug: "soda", image: null },
-    // { name: "زبادي", slug: "yogurt", image: null },
-    // { name: "وافل", slug: "waffle", image: null },
+    { name: "عصائر موسمية", slug: "seasonal-juices", image: null },
+    { name: "سموزي", slug: "smoothie", image: null },
+    { name: "مثلجات", slug: "ice", image: null },
+    { name: "صودا", slug: "soda", image: null },
+    { name: "زبادي", slug: "yogurt", image: null },
+    { name: "وافل", slug: "waffle", image: null },
   ];
 
   return (
@@ -30,7 +30,7 @@ export default function Drinks() {
                 priority
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 387px"
               />
-              <div className="absolute bottom-0 right-0 bg-[#4B2C15] text-white px-4 py-2 rounded-tl-xl text-sm font-bold">
+              <div className="absolute bottom-0 right-0 bg-[#4B2C15] text-white px-4 py-2 rounded-tl-xl rounded-tr-xl rounded-bl-xl text-sm font-bold">
                 {cat.name}
               </div>
             </div>
