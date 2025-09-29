@@ -5,15 +5,15 @@ import Link from "next/link";
 
 export default function Drinks() {
   const categories = [
-    { name: "القهوة", slug: "coffee", image: "/Coffee.png" },
+    { name: "القهوة", slug: "coffee", image: "/coffee.png" },
     { name: "ميلك شيك", slug: "milkshake", image: "/milkshake.webp" },
     { name: "عصائر فريش", slug: "fresh-juices", image: "/fresh-juices.webp" },
-    { name: "عصائر موسمية", slug: "seasonal-juices", image: null },
-    { name: "سموزي", slug: "smoothie", image: null },
-    { name: "منتجات", slug: "products", image: null },
-    { name: "صودا", slug: "soda", image: null },
-    { name: "زبادي", slug: "yogurt", image: null },
-    { name: "وافل", slug: "waffle", image: null },
+    // { name: "عصائر موسمية", slug: "seasonal-juices", image: null },
+    // { name: "سموزي", slug: "smoothie", image: null },
+    // { name: "منتجات", slug: "products", image: null },
+    // { name: "صودا", slug: "soda", image: null },
+    // { name: "زبادي", slug: "yogurt", image: null },
+    // { name: "وافل", slug: "waffle", image: null },
   ];
 
   return (
