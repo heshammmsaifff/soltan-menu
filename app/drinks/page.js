@@ -5,9 +5,9 @@ import Link from "next/link";
 
 export default function Drinks() {
   const categories = [
-    { name: "القهوة", slug: "coffee", image: "/coffee.png" },
-    { name: "ميلك شيك", slug: "milkshake", image: "/milkshake.webp" },
-    { name: "عصائر فريش", slug: "fresh-juices", image: "/fresh-juices.webp" },
+    { name: "القهوة", slug: "coffee", image: null },
+    { name: "ميلك شيك", slug: "milkshake", image: null },
+    { name: "عصائر فريش", slug: "fresh-juices", image: null },
     // { name: "عصائر موسمية", slug: "seasonal-juices", image: null },
     // { name: "سموزي", slug: "smoothie", image: null },
     // { name: "منتجات", slug: "products", image: null },

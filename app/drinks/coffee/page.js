@@ -45,7 +45,7 @@ export default function Coffee() {
             ))}
           </div>
 
-          <div className="bg-[#D9D9D9] rounded-full h-[54px] flex items-center justify-between shadow-md px-4">
+          <div className="bg-[#D9D9D9] rounded-[20px] h-[54px] flex items-center justify-between shadow-md px-4">
             <div className="flex items-center gap-6">
               {item.sizes.map((size, idx) => (
                 <span key={idx} className="text-sm font-bold">
