@@ -38,7 +38,7 @@ export default function Coffee() {
             {item.sizes.map((size, idx) => (
               <span
                 key={idx}
-                className="bg-[#FF8800] mr-[20px] text-white font-bold px-3 py-1 rounded-t-md rounded-b-none text-xs shadow-md"
+                className="bg-[#FF8800] mr-[20px] text-white font-bold px-3 py-1 rounded-t-md rounded-b-none text-xs"
               >
                 {size.label}
               </span>

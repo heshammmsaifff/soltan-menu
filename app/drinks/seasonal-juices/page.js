@@ -28,9 +28,13 @@ export default function SeasonalJuices() {
           <div className="bg-[#D9D9D9] rounded-[20px] h-[54px] flex items-center justify-between shadow-md px-4">
             <div className="flex items-center gap-6">
               {item.sizes.map((size, idx) => (
-                <span key={idx} className="ml-[40px] text-sm font-bold">
-                  <span className="text-2xl">{size.price}</span>L.E
-                </span>
+                <div
+                  key={idx}
+                  className="ml-[40px] flex items-baseline font-bold w-[70px] justify-center"
+                >
+                  <span className="text-2xl">{size.price}</span>
+                  <span className="text-sm ml-1">L.E</span>
+                </div>
               ))}
             </div>
             <span className="font-bold text-lg" dir="rtl">

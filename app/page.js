@@ -52,7 +52,7 @@ export default function Home() {
           className="flex flex-col items-center gap-6"
         >
           <Image
-            src="/soltan.png"
+            src="/soltan.svg"
             alt="Soltan"
             width={362}
             height={206}
