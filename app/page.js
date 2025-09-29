@@ -63,7 +63,7 @@ export default function Home() {
               initial={{ scale: 0.8, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}
               transition={{ delay: 0.5, duration: 0.5 }}
-              className="w-[244px] h-[75px] rounded-[20px] text-lg font-bold text-white relative overflow-hidden mt-[134px]"
+              className="hover:cursor-pointer w-[244px] h-[75px] rounded-[20px] text-lg font-bold text-white relative overflow-hidden mt-[134px]"
             >
               <span className="relative z-10 text-[30px] font-bold">
                 منيو المشروبات
@@ -81,7 +81,7 @@ export default function Home() {
               initial={{ scale: 0.8, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}
               transition={{ delay: 0.5, duration: 0.5 }}
-              className="w-[244px] h-[75px] rounded-[20px] text-lg font-bold text-white relative overflow-hidden mt-[34px]"
+              className="hover:cursor-pointer w-[244px] h-[75px] rounded-[20px] text-lg font-bold text-white relative overflow-hidden mt-[34px]"
             >
               <span className="relative z-10 text-[30px] font-bold">
                 منيو البن
