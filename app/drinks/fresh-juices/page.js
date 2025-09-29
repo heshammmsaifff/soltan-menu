@@ -45,7 +45,9 @@ export default function Milkshake() {
         <p className="text-right ml-[47px] mr-[10px]">
           • فلايفور (جوافة-كيوي-بطيخ)
         </p>{" "}
-        <span className="text-left ml-[17px]">5 L.E</span>
+        <span className="text-left text-2xl ml-[17px]" dir="ltr">
+          5 <span className="text-sm">L.E</span>
+        </span>
       </div>
       <Link
         href="/drinks"
