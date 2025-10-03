@@ -2,8 +2,9 @@
 
 const products = [
   { name: "شرقي", type: "فاتح", ground: 140, beans: 125 },
-  { name: "شرقي", type: "وسط", ground: 145, beans: 145 },
+  { name: "شرقي", type: "وسط", ground: 145, beans: 130 },
   { name: "شرقي", type: "غامق", ground: 150, beans: 135 },
+  { name: "عميد", type: "فاتح", ground: 145, beans: 130 },
   { name: "عميد", type: "وسط", ground: 150, beans: 135 },
   { name: "عميد", type: "غامق", ground: 155, beans: 140 },
   { name: "السلطان", type: "فاتح", ground: 150, beans: 135 },
