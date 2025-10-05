@@ -5,8 +5,8 @@ import Link from "next/link";
 
 export default function Coffee() {
   const categories = [
-    { name: "البن التركي", slug: "turkish", image: null, count: 18 },
-    { name: "منتجات أخري", slug: "others", image: null, count: 8 },
+    { name: "البن التركي", slug: "turkish", image: "/turkish.svg", count: 18 },
+    { name: "منتجات أخري", slug: "others", image: "/others.svg", count: 8 },
   ];
 
   return (

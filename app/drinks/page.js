@@ -7,13 +7,18 @@ export default function Drinks() {
   const categories = [
     { name: "القهوة", slug: "coffee", image: "/coffee.svg", count: 8 },
     { name: "ميلك شيك", slug: "milkshake", image: "/milk.svg", count: 17 },
-    { name: "عصائر فريش", slug: "fresh-juices", image: null, count: 9 },
-    { name: "عصائر موسمية", slug: "seasonal-juices", image: null, count: 11 },
-    { name: "سموزي", slug: "smoothie", image: null, count: 11 },
-    { name: "مثلجات", slug: "ice", image: null, count: 5 },
-    { name: "صودا", slug: "soda", image: null, count: 6 },
-    { name: "زبادي", slug: "yogurt", image: null, count: 5 },
-    { name: "وافل", slug: "waffle", image: null, count: 7 },
+    { name: "عصائر فريش", slug: "fresh-juices", image: "/fresh.svg", count: 9 },
+    {
+      name: "عصائر موسمية",
+      slug: "seasonal-juices",
+      image: "/seasonal.svg",
+      count: 11,
+    },
+    { name: "سموزي", slug: "smoothie", image: "/smoothie.svg", count: 11 },
+    { name: "مثلجات", slug: "ice", image: "ice.svg", count: 5 },
+    { name: "صودا", slug: "soda", image: "/suda.svg", count: 6 },
+    { name: "زبادي", slug: "yogurt", image: "/yugert.svg", count: 5 },
+    { name: "وافل", slug: "waffle", image: "/waffel.svg", count: 7 },
   ];
 
   return (
