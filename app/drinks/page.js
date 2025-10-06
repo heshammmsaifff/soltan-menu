@@ -40,15 +40,20 @@ export default function Drinks() {
                 </span>
               </div>
 
-              <div className="[box-shadow:0_0_25px_0_#00000040] w-[90px] h-[90px] rounded-[20px] border-2 border-white  flex items-center justify-center overflow-visible">
-                <Image
-                  src={cat.image || "/placeholder.svg"}
-                  alt={cat.name}
-                  width={90}
-                  height={90}
-                  priority={i === 0}
-                  className="object-cover"
-                />
+              <div className="relative w-[90px] h-[90px] bg-[#D9D9D9] rounded-[20px] shadow-[0_0_25px_rgba(0,0,0,0.25)]">
+                <div className="absolute w-[70px] h-[68px] left-[9px] top-[11px] flex items-center justify-center">
+                  <Image
+                    src={cat.image || "/placeholder.svg"}
+                    alt={cat.name}
+                    width={70}
+                    height={68}
+                    className={`object-contain ${
+                      cat.image === "/milk.svg"
+                        ? "mr-[25px] overflow-visible scale-150"
+                        : ""
+                    }`}
+                  />
+                </div>
               </div>
             </div>
           </Link>
