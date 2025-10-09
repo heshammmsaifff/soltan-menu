@@ -13,10 +13,10 @@ export default function Coffee() {
     <main className="min-h-screen p-6 flex flex-col gap-6" dir="rtl">
       {categories.map((cat, i) => (
         <div
-          key={cat.slug} // ✅ key هنا
+          key={cat.slug}
           className="rounded-2xl p-[2px] bg-gradient-to-b from-[#ECB635] via-[#F7EF8A] to-[#EDC967]"
         >
-          <Link href={`/drinks/${cat.slug}`}>
+          <Link href={`/coffee/${cat.slug}`}>
             <div className="flex items-center justify-between bg-[#D9D9D9] rounded-2xl shadow-lg p-4 cursor-pointer">
               <div className="flex flex-col items-end text-right" dir="ltr">
                 <h2 className="text-[35px] font-bold text-[#060606]">
