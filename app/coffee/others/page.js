@@ -24,12 +24,12 @@ export default function CoffeeMenu() {
         {products.map((item, i) => (
           <div key={i} className="flex flex-col gap-1">
             {/* النص فوق الكارت */}
-            <div className="flex items-center gap-2">
-              <span className="h-[1px] w-6 bg-black"></span>
-              <span className="text-black font-bold text-[10px]">
+            <div className="flex items-center gap-2 justify-center">
+              <span className="h-[4px] mt-1.5 w-2 bg-black "></span>
+              <span className="text-black font-bold text-[20px]">
                 السعر يتوافق مع وزن 1/4 كيلو
               </span>
-              <span className="h-[1px] w-[120px] bg-black"></span>
+              <span className="h-[4px] mt-1.5 w-2 bg-black "></span>
             </div>
 
             {/* الكارت */}
